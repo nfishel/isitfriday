@@ -2,9 +2,9 @@ console.log("Hello Royals!");
 
 
 const today = new Date();
-if today.getDate() == 5{
-    console.log(today.getDay())
+if today.getDay() == 5{
+    document.querySelector("#answer").textContent = "YES!"
 }else{
-    console.log(today.getMonth())
+    document.querySelector("#answer").textContent = "NO :("
 }
 console.log(today);
