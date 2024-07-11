@@ -2,6 +2,7 @@
 
 body{
   background-color: #bada55;
+  height:100svh;
 }
 h1{
   display:flex;
